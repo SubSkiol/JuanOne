@@ -1,0 +1,40 @@
+[
+{
+    "type":"greeting",
+    "response":"Hello! How can I assist you today?",
+    "user_input":["hi","hello","hey","sup","wsg"],
+    "required_words":[]
+},
+{
+    "type":"goodbye",
+    "response":"Goodbye! Have a great day!",
+    "user_input":["bye","goodbye","see you later","take care","quit","exit"],
+    "required_words":[]
+},
+{
+    "type":"thanks",
+    "response":"You're welcome! If you have any more questions, feel free to ask.",
+    "user_input":["thank you","thanks","appreciate it"],
+    "required_words":[]
+},
+{
+    "type":"help",
+    "response":"Sure! Try asking me to open an application or perform a task.\nFor a full list of commands, see features in the README.",
+    "user_input":["help","assist me","need assistance"],
+    "required_words":[]
+},
+{
+    "type":"action",
+    "action_type":"open",
+    "response":"Opening {0} now.",
+    "user_input":["open","launch","start"],
+    "required_words":[]
+},
+{
+    "type":"action",
+    "action_type":"list_known_apps",
+    "response":"Here are the applications I can open for you: {0}",
+    "user_input":["list","what","show","apps","applications","programs","software"],
+    "required_words":[["list","what","show"],["apps","applications","programs","software"]]
+}
+] 
